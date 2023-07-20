@@ -1,4 +1,10 @@
-## FaceFormer
+## Inference only FaceFormer
+
+We use FaceFormer in our paper **Making an Android Robot Head Talk**, to be published at *RO-MAN 2023*.
+
+We only use the pre-trained model for inference in this fork and removed model training and mesh rendering files from the original repository. We added a small web api which is not safe to use online but intended only for local usage, as we do on a Jetson Orin device, which the additional Dockerfile is made for.
+
+## Readme of original Repository:
 
 PyTorch implementation for the paper:
 
